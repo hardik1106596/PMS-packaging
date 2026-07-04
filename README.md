@@ -1,11 +1,12 @@
 # 📦 PMS Packaging Pvt. Ltd. – Full Stack E-Commerce Platform
 
+<p align="center">
 
 Production-ready B2B/B2C E-Commerce Platform built using the MERN ecosystem with PostgreSQL, Razorpay, PDF Invoice Generation, Email Automation, WhatsApp Notifications and an Advanced Admin Dashboard.
 
+</p>
 
-
-
+<p align="center">
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Node](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
@@ -13,7 +14,7 @@ Production-ready B2B/B2C E-Commerce Platform built using the MERN ecosystem with
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-3-38BDF8?logo=tailwindcss)
 ![License](https://img.shields.io/badge/License-MIT-success)
 
-
+</p>
 
 ---
 
@@ -84,11 +85,11 @@ The platform allows customers to browse products, place orders, complete online 
 
 ✔ Activity Logging
 
-
+---
 
 # 🛒 Order Workflow
 
-text
+```text
 Customer
       │
       ▼
@@ -128,9 +129,9 @@ Send WhatsApp Alert
 Update Admin Dashboard
       ▼
 Order Completed
+```
 
-
-
+---
 
 # 🏗 Tech Stack
 
@@ -142,7 +143,7 @@ Order Completed
 - Axios
 - Context API
 
-
+---
 
 ## Backend
 
@@ -159,7 +160,7 @@ Order Completed
 
 - PostgreSQL (Neon)
 
-
+---
 
 ## Third Party Services
 
@@ -173,6 +174,7 @@ Order Completed
 
 # 📂 Project Structure
 
+```
 pms-packaging
 │
 ├── backend
@@ -196,7 +198,9 @@ pms-packaging
 │   └── main.jsx
 │
 └── README.md
+```
 
+---
 
 # 🔒 Security Features
 
@@ -211,22 +215,23 @@ pms-packaging
 - CORS Protection
 - Secure Error Handling
 
-
+---
 
 # ⚡ Installation
 
 ## Clone Repository
 
-bash
-git clone
-https://github.com/yourusername/pms-packaging.git
+```bash
+git clone https://github.com/hardik1106596/pms-packaging.git
 
 cd pms-packaging
+```
 
+---
 
 ## Backend
 
-bash
+```bash
 cd backend
 
 npm install
@@ -240,17 +245,19 @@ npx prisma migrate dev
 npm run seed
 
 npm run dev
-
+```
 
 Backend
 
-
+```
 http://localhost:5000
+```
 
+---
 
 ## Frontend
 
-bash
+```bash
 cd frontend
 
 npm install
@@ -258,19 +265,21 @@ npm install
 cp .env.example .env
 
 npm run dev
-
+```
 
 Frontend
 
+```
 http://localhost:5173
+```
 
+---
 
 # 🔑 Environment Variables
 
 ## Backend
 
-env
-
+```env
 DATABASE_URL=
 
 JWT_ACCESS_SECRET=
@@ -294,13 +303,15 @@ TWILIO_ACCOUNT_SID=
 TWILIO_AUTH_TOKEN=
 
 TWILIO_WHATSAPP_FROM=
+```
 
+---
 
 # 👤 Demo Accounts
 
 ## Admin
 
-
+```
 Email
 
 admin@pmspackaging.com
@@ -308,11 +319,13 @@ admin@pmspackaging.com
 Password
 
 Admin@123
+```
 
+---
 
 ## Customer
 
-
+```
 Email
 
 customer@example.com
@@ -320,7 +333,9 @@ customer@example.com
 Password
 
 Customer@123
+```
 
+---
 
 # 🌐 Deployment
 
@@ -328,22 +343,23 @@ Customer@123
 
 Vercel
 
-
+---
 
 ## Backend
 
 Render
 
-
+---
 
 ## Database
 
 Neon PostgreSQL
 
-
+---
 
 # 📸 Screenshots
 
+```
 Home Page
 
 Product Listing
@@ -363,11 +379,11 @@ Orders
 Products
 
 Customers
-
+```
 
 (Add screenshots here)
 
-
+---
 
 # 🚀 Future Improvements
 
@@ -380,7 +396,7 @@ Customers
 - Analytics Dashboard
 - Mobile App
 
-
+---
 
 # 👨‍💻 Developer
 
@@ -399,7 +415,7 @@ https://linkedin.com/in/sagadhara-hardik-443292331
 Email:
 hardiksagadhara@gmail.com
 
-
+---
 
 # ⭐ Support
 
@@ -411,7 +427,10 @@ If you found this project useful,
 
 📢 Share it with others
 
+---
 
+<p align="center">
 
 Made with ❤️ by Hardik Sagadhara
 
+</p>
