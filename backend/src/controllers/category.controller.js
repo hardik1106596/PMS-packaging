@@ -1,7 +1,7 @@
 const slugify = require('slugify');
 const prisma = require('../config/prisma');
 const AppError = require('../utils/AppError');
-const asyncHandler = require('../utils/asyncHandler');
+const asyncHandler = require('../utils/AsyncHandler');
 
 // GET /api/categories (public)
 const getCategories = asyncHandler(async (req, res) => {

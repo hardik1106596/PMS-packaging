@@ -1,6 +1,6 @@
 const prisma = require('../config/prisma');
 const AppError = require('../utils/AppError');
-const asyncHandler = require('../utils/asyncHandler');
+const asyncHandler = require('../utils/AsyncHandler');
 const razorpay = require('../config/razorpay');
 const { generateOrderNumber } = require('../utils/generateNumber');
 const { fulfillOrder } = require('../services/order.service');

@@ -1,5 +1,5 @@
 const prisma = require('../config/prisma');
-const asyncHandler = require('../utils/asyncHandler');
+const asyncHandler = require('../utils/AsyncHandler');
 
 // GET /api/admin/dashboard
 const getDashboardSummary = asyncHandler(async (req, res) => {

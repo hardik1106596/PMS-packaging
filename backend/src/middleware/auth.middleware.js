@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const prisma = require('../config/prisma');
 const AppError = require('../utils/AppError');
-const asyncHandler = require('../utils/asyncHandler');
+const asyncHandler = require('../utils/AsyncHandler');
 
 /**
  * Verifies the JWT access token from either the Authorization header

@@ -1,5 +1,5 @@
 const AppError = require('../utils/AppError');
-const asyncHandler = require('../utils/asyncHandler');
+const asyncHandler = require('../utils/AsyncHandler');
 const { sendMail } = require('../services/email.service');
 
 // POST /api/contact

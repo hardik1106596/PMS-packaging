@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 const prisma = require('../config/prisma');
 const AppError = require('../utils/AppError');
-const asyncHandler = require('../utils/asyncHandler');
+const asyncHandler = require('../utils/AsyncHandler');
 const { fulfillOrder } = require('../services/order.service');
 
 // POST /api/payments/razorpay/verify

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const prisma = require('../config/prisma');
 const AppError = require('../utils/AppError');
-const asyncHandler = require('../utils/asyncHandler');
+const asyncHandler = require('../utils/AsyncHandler');
 const { generateInvoicePdf } = require('../services/invoice.service');
 
 // GET /api/invoices/:orderNumber/download  (customer or guest with order number)
